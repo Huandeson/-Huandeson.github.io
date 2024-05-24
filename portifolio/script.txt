@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Cor de fundo geral */
+    color: #000000; /* Cor do texto principal */
+    margin: 0;
+    padding: 0;
+}
+    
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #c1c4dd; /* Cor de fundo do cabeçalho */
+    color: #060a4d; /* Cor do texto do cabeçalho */
+    padding: 20px ;
+}
+
+header h1 {
+    margin: 0; 
+}
+
+nav ul {
+    list-style: inherit;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ad7bfd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Cor do texto ao passar o mouse */
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #5e39a1;
+}
+
+.about-me {
+    background-color: #5e39a1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+.about-me .bio {
+    width: 60%;
+}
+
+.about-me .photo {
+    width: 15%;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 50%; /* Para uma imagem de perfil circular */
+}
+
+.contact-list {
+    list-style-type:none
+
+}
+
+
+.contact-list li a {
+    background-color: #5e39a1;
+    
+    color: #0c75dd;
+    display: inline;
+    text-decoration:double;
+    max-width: 100%;
+    border-radius: 20px;    
+}
+
+.contact-list li a:hover {
+    color: #f39c12; /* Cor do link ao passar o mouse */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.project h3 {
+    color: #2c3e50;
+}
+
+.project p {
+    color: #666;
+}

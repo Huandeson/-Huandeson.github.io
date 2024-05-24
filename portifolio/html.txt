@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./beleza.css">
+</head>
+<body>
+    <!-- Barra de Contatos e Menu Inicial -->
+    <header>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-me">
+                <div class="bio">
+                    <h3>Minha Biografia</h3>
+                    <p>olá, eu sou Huandeson Costa tenho 21 anos e sou estudante de desenvolvimento web
+                       <p>ja estudo estou nessa area a 8 meses tenho conhecimento em html, css, e java script,</p> 
+                      <p> todas elas com maestria, meu desejo é trablhar para empresas grandes e realizar meus desejos</p>
+                    </p>
+                </div>
+                <div class="photo">
+                    <!-- Espaço para sua foto -->
+                    <img src="./foto.jpg" alt="Minha Foto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <ul class="contact-list">
+                <li><a href="mailto:programmerhuandeson@gmail.com">E-mail</a></li>
+                <li><a href="https://www.linkedin.com/seuperfil">LinkedIn</a></li>
+                <li><a href="https://github.com/Huandeson">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects">
+                <!-- Aqui você pode listar alguns de seus projetos -->
+                <div class="project">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto...</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto...</p>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio</p>
+        </div>
+    </footer>
+</body>
+</html>
